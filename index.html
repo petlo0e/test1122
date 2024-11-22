@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>새김카드</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/jquery.fullPage.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <script defer src="js/jquery-3.7.1.min.js"></script>
+  <script defer src="js/swiper-bundle.min.js"></script>
+  <script defer src="js/jquery.fullPage.js"></script>
+  <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script defer src="js/common.js"></script>
+</head>
+<body>
+
+  <div id="wrap">
+
+    <header>
+      <div class="inner">
+        <h1 data-menuanchor="menu1"><a href="#menu1"><img src="img/saegimlogo.png" alt="새김로고"></a></h1>
+        
+        <nav>
+          <ul class="gnb">
+            <li data-menuanchor="menu2"><a href="#menu2">카드신청</a></li>
+            <li data-menuanchor="menu3"><a href="#menu3">카드이용</a></li>
+            <li data-menuanchor="menu4"><a href="#menu4">콜라보</a></li>
+            <li data-menuanchor="menu5"><a href="#menu5">혜택</a></li>
+          </ul>
+        </nav>
+
+        <ul class="utill">
+          <li><a href="#">로그인</a></li>
+          <li><a href="#">회원가입</a></li>
+          <li><a href="#">개인</a></li>
+          <li><a href="#">법인</a></li>
+          <li><a href="#">내정보관리</a></li>
+        </ul>
+
+        <a href="#" class="gnb-open">
+          <img src="img/menuopen.png" alt="메뉴열기">
+        </a>
+      </div><!-- inner -->
+    </header>
+
+    <div id="fullpage">
+
+      <section class="section" id="main-visual" data-anchor="menu1">
+        <div>
+          <video src="img/mainvisual.mp4" data-autoplay muted loop playsinline></video>
+        </div>
+      </section><!-- #main-visual -->
+
+
+      <section class="section" id="prd" data-anchor="menu2">
+        <div class="inner">
+          <h2><span>새김을 완성하는</span><br>우아한 품격을담은 카드</h2>
+
+          <div id="box-wrap">
+            <div class="box1">
+              <div class="swiper box1-swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="img/slideimg-left1.jpg" alt="슬라이드이미지">
+                    <div class="left-txt">
+                      <h3>새김<br>담은카드</h3>
+                      <p>축하 케이스에 신뢰와 품격을 담아<br>고객에게 특별한 금융 경험을 더하다</p>
+                      <a href="#" class="prd-btn">제품보기 +</a>
+                    </div><!-- left-txt -->
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <img src="img/slideimg-left2.jpg" alt="슬라이드이미지">
+                    <div class="left-txt">
+                      <h3>새김<br>다움카드</h3>
+                      <p>한국적인 '다움'을 표펴한 이름으로<br>전통적이면서도 세련된 이미지를 더하다</p>
+                      <a href="#" class="prd-btn">제품보기 +</a>
+                    </div><!-- left-txt -->
+                  </div>
+
+                  <div class="swiper-slide">
+                    <img src="img/slideimg-left3.jpg" alt="슬라이드이미지">
+                    <div class="left-txt2">
+                      <h3>새김<br>고은카드</h3>
+                      <p>'고전적인 아름다움'을 줄여 표현한 이름으로<br>전통의 고유한 멋을 더하다</p>
+                      <a href="#" class="prd-btn">제품보기 +</a>
+                    </div><!-- left-txt -->
+                  </div>
+
+                  <div class="swiper-slide">
+                    <img src="img/slideimg-left4.jpg" alt="슬라이드이미지">
+                    <div class="left-txt">
+                      <h3>새김<br>한누리카드</h3>
+                      <p>'한'은 한국을 뜻하고 '누리'는 세상을 뜻하여<br>한국 전통의 가치를 전세계로 넓히다</p>
+                      <a href="#" class="prd-btn">제품보기 +</a>
+                    </div><!-- left-txt -->
+                  </div>
+
+                  <div class="swiper-slide">
+                    <img src="img/slideimg-left5.jpg" alt="슬라이드이미지">
+                    <div class="left-txt2">
+                      <h3>새김<br>LCK T1 콜라보 카드</h3>
+                      <p>T1 팬들을 위한 특별한 카드로<br>
+                        T1의 상징과 가치를 담아내다</p>
+                      <a href="#" class="prd-btn">제품보기 +</a>
+                    </div><!-- left-txt -->
+                  </div>
+
+                  <div class="swiper-slide">
+                    <img src="img/slideimg-left6.jpg" alt="슬라이드이미지">
+                    <div class="left-txt2">
+                      <h3>새김<br>로스트아크 콜라보 카드</h3>
+                      <p>고유한 일러스트나 한정된 기간에만 발행되어<br>컬렉션 카드로 소장 가치를 더하다</p>
+                      <a href="#" class="prd-btn">제품보기 +</a>
+                    </div><!-- left-txt -->
+                  </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+
+              </div>
+            </div>
+
+            <div class="box2">
+              <div class="swiper box2-swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="rignt-txt">
+                      <img src="img/slidelogo.png" alt="새김이미지">
+                      <h3>새김 카드</h3>
+                      <p>한국 전통의 미를 담아낸다는 뜻으로<br>
+                        고급스러움을 나타낼 수 있습니다.</p>
+                    </div><!-- rignt-txt -->
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="rignt-txt">
+                      <img src="img/slidelogo.png" alt="새김이미지">
+                      <h3>새김 카드</h3>
+                      <p>한국 전통의 미를 담아낸다는 뜻으로<br>
+                        고급스러움을 나타낼 수 있습니다.</p>
+                    </div><!-- rignt-txt -->
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="rignt-txt">
+                      <img src="img/slidelogo.png" alt="새김이미지">
+                      <h3>새김 카드</h3>
+                      <p>한국 전통의 미를 담아낸다는 뜻으로<br>
+                        고급스러움을 나타낼 수 있습니다.</p>
+                    </div><!-- rignt-txt -->
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="rignt-txt">
+                      <img src="img/slidelogo.png" alt="새김이미지">
+                      <h3>새김 카드</h3>
+                      <p>한국 전통의 미를 담아낸다는 뜻으로<br>
+                        고급스러움을 나타낼 수 있습니다.</p>
+                    </div><!-- rignt-txt -->
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="rignt-txt">
+                      <img src="img/slidelogo.png" alt="새김이미지">
+                      <h3>T1 콜라보 카드</h3>
+                      <p>T1 관련 여러 특별한 혜택을<br>
+                        누릴 수 있는 기회를 제공 받게 됩니다.</p>
+                    </div><!-- rignt-txt -->
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="rignt-txt">
+                      <img src="img/slidelogo.png" alt="새김이미지">
+                      <h3>로스트아크 콜라보 카드</h3>
+                      <p>로스트아크 카드 사업 수익금으로 조성된 기부금은 도움이 필요한<br>
+                        사회 곳곳에 모험가 여러분의 따뜻한 마음과 손길로<br>
+                        전달될 예정입니다.</p>
+                    </div><!-- rignt-txt -->  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- inner -->
+      </section><!-- #prd -->
+
+      <section class="section" id="menu" data-anchor="menu3">
+        <div class="inner">
+          <div class="txt">
+            <h2>새김<br>자주 사용하는 메뉴</h2>
+            <p>편의를 위해제공되는 기능 중 하나로,<br>
+              사용자가 자주 접근하는 기능이나 서비스를<br>
+              쉽게 이용할 수 있도록 미리 설정해 둔 메뉴 입니다.
+            </p>
+          </div><!-- txt -->
+  
+          <ul>
+            <li>
+              <a href="#">
+                <div class="img-box">
+                  <img src="img/menu1.jpg" alt="메뉴이미지">
+                </div><!-- img-box -->
+                <div class="txt-box">
+                  <h3>카드신청</h3>
+                  <p>내게맞는 카드를 확인하여 카드 발급가능하며, 발급된 카드를 통해 고객은 해당 카드사의 결제 시스템을 이용할 수 있고, 신용카드의 경우 일정 신용 한도 내에서 결제가 가능합니다.</p>
+                  <div class="more">
+                    <span>자세히 보기</span>
+                    <div class="more-btn"><img src="img/morebtn.png" alt="더보기"></div><!-- more-btn --> 
+                  </div><!-- more -->                     
+                </div><!-- txt-box -->
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <div class="img-box">
+                  <img src="img/menu2.jpg" alt="메뉴이미지">
+                </div><!-- img-box -->
+                <div class="txt-box">
+                  <h3>이용내역</h3>
+                  <p>이용내역을 통해 사용자는 카드로 결제한 내역을 확인할 수 있으며, 이는 신용카드 명세서에 포함되어 매월 정기적으로 제공됩니다.</p>
+                  <div class="more">
+                    <span>자세히 보기</span>
+                    <div class="more-btn"><img src="img/morebtn.png" alt="더보기"></div><!-- more-btn -->
+                  </div>  
+                </div><!-- txt-box -->
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <div class="img-box">
+                  <img src="img/menu3.jpg" alt="메뉴이미지">
+                </div><!-- img-box -->
+                <div class="txt-box">
+                  <h3>가상계좌</h3>
+                  <p>카드사로부터 대금을 납부하기 위해 할당받은 일회성 계좌로, 주로 신용카드 대금 납부를 위해 활용됩니다. 가상계좌는 실제 은행 계좌와는 다르지만, 정해진 기간 동안 입금이 가능한 일회성 계좌번호로 사용됩니다.</p>
+                  <div class="more">
+                    <span>자세히 보기</span>
+                    <div class="more-btn"><img src="img/morebtn.png" alt="더보기"></div><!-- more-btn --> 
+                  </div> 
+                </div><!-- txt-box -->
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <div class="img-box">
+                  <img src="img/menu4.jpg" alt="메뉴이미지">
+                </div><!-- img-box -->
+                <div class="txt-box">
+                  <h3>즉시결제</h3>
+                  <p>결제일을 기다리지 않고, 원할 때 바로 결제하는 방식입니다. 신용카드 이용 금액을 즉시 상환할 수 있으며, 이로 인해 카드 한도를 즉시 회복하거나, 이자나 연체료 없이 결제를 관리하는 장점이 있습니다.</p>
+                  <div class="more">
+                    <span>자세히 보기</span>
+                    <div class="more-btn"><img src="img/morebtn.png" alt="더보기"></div><!-- more-btn -->  
+                  </div>
+
+                </div><!-- txt-box -->
+              </a>
+            </li>
+          </ul>   
+        </div><!-- inner -->
+      </section><!-- #menu -->
+        
+
+      <section class="section bg1" id="collaboration" data-anchor="menu4">
+        <div class="inner">
+          <h2 class="tlt">새김 콜라보</h2>
+
+          <div class="collaboration-box">
+            <div class="t1">
+              <div class="txt-box">
+                <h3>e스포츠 팬들을 위한<br>T1 콜라보</h3>
+                <p>T1 관련 혜택이 주어지며 이 카드의 출시로<br>
+                  T1 팬들은 일상 속에서 T1과 더욱 긴밀하게 연결될 수 있으며,<br>
+                  T1의 경기나 이벤트에서 특별한 혜택을 누릴 수 있는 기회를 제공받게 됩니다</p>
+                <a href="#" class="more-btn"><span>MORE</span><img src="img/arroww.png" alt="더보기"></a>
+              </div><!-- txt-box -->
+            </div><!-- t1 -->
+
+            <div class="loa">
+              <div class="txt-box">
+                <h3>로스트아크게임 <br>팬들을 위한 콜라보</h3>
+                <p>제휴 혜택과 로스트아크의 세계를 일상에서도 경험하고,<br>
+                  게임 내외에서 풍부한 혜택을 받을 수 있도록 설계된 카드입니다.<br>
+                  게임 속 모험가로서의 여정을 현실에서도 더욱 특별하게<br>
+                  만들어줄 것입니다.</p>
+                <a href="#" class="more-btn"><span>MORE</span><img src="img/arroww.png" alt="더보기"></a>
+              </div><!-- txt-box -->
+            </div><!-- loa -->
+
+          </div><!-- collaboration-box -->  
+         </div><!-- inner --> 
+      </section><!-- #collaboration -->
+
+    
+      <section class="section" id="event1" data-anchor="menu5">
+        <div class="inner">
+          <h2>새김 신규<span>「이벤트」</span></h2>
+          <p class="event-txt">신규 회원 연회비 캐시백<br>
+          <span class="pink">최대 10만원 캐시백</span> + 최대 3만원 주유 할인<br>
+          최대 3만 <span class="green">네이버페이</span> 포인트 적립</p>
+
+        <ul>
+          <li>
+            <a href="#">
+              <h4>담은</h4>
+              <p>DAMUN</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <h4>다움</h4>
+              <p>DAOOM</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <h4>T1</h4>
+              <p>T1</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <h4>고운</h4>
+              <p>GOWOON</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <h4>한누리</h4>
+              <p>HANNURI</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <h4>로스트아크</h4>
+              <p>LOSTARK</p>
+            </a>
+          </li>
+        </ul>
+        </div><!-- inner -->        
+      </section><!-- #event1 -->
+
+      <section class="section" id="event2">
+        <div class="txt-box">
+          <h2>새김 기존, 신규 모든 고객 <span>「이벤트」</span></h2>
+          <h3>함께한 시간만큼 커지는 혜택, 지금 누리세요!</h3>
+          <p>고객님들의 성원에 감사드리며 더 큰 혜택으로 보답드리겠습니다!<br>
+            50만원 이상 신용카드를 사용하시면 추첨을통해<br>
+            감사의 마음을 담아 유명 브랜드 상품권 또는 특별 기념품을 증정합니다.</p>
+          <a href="#" class="more-btn">바로가기</a>          
+        </div><!-- txt-box -->  
+      </section><!-- #event2 -->
+
+      <footer class="section fp-auto-height">
+        <div class="inner">
+          <div class="f-logo"><img src="img/flogo.png" alt="새김로고"></div><!-- f-logo -->
+
+          <div class="info">
+            <div class="f-txt">
+              <address>
+                서울 종로구 돈화문로11나길 30 새김빌딩
+              </address>
+              <p>
+                <span>사업자등록번호  123-45-67890</span>
+                <span>대표전화  1234-5678</span>
+                <span>이메일  sg@saegim.co.kr</span>
+              </p>
+            </div><!-- f-txt -->
+            <ul class="f-link">
+              <li>
+                <a href="#"><img src="img/youtube.png" alt="유튜브"></a>
+              </li>
+              <li>
+                <a href="#"><img src="img/facebook.png" alt="페이스북"></a>
+              </li>
+              <li>
+                <a href="#"><img src="img/insta.png" alt="인스타"></a>
+              </li>
+            </ul>
+          </div><!-- info -->          
+          <p class="copy">Copyright &copy; 2024 SAEGIM., LTD. All rights reserved.</p>
+        </div><!-- inner -->
+      </footer>
+    </div><!-- #fullpage -->
+  </div><!-- #wrap -->
+
+
+  
+</body>
+</html>
